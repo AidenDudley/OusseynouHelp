@@ -21,17 +21,50 @@ class HomePage extends StatelessWidget {
             Image(
               image: new AssetImage('images/picture.jpg'),
             ),
-            MaterialButton(
-                minWidth: 200, child: Text('Button1'), onPressed: null),
-            MaterialButton(
-              minWidth: 200,
-              child: Text('Button 2'),
-              onPressed: null,
+            Material(
+              elevation: 10.0,
+              borderRadius: BorderRadius.circular(30.0),
+              color: Colors.teal,
+              child: MaterialButton(
+                onPressed: (null),
+                child: Text(
+                  "Button 1",
+                  style: TextStyle(
+                    color: Colors.white,
+                  ),
+                  textAlign: TextAlign.center,
+                ),
+              ),
             ),
-            MaterialButton(
-              minWidth: 200,
-              child: Text('Button 3'),
-              onPressed: null,
+            Material(
+              elevation: 10.0,
+              borderRadius: BorderRadius.circular(30.0),
+              color: Colors.teal,
+              child: MaterialButton(
+                onPressed: (null),
+                child: Text(
+                  "Button 2",
+                  style: TextStyle(
+                    color: Colors.white,
+                  ),
+                  textAlign: TextAlign.center,
+                ),
+              ),
+            ),
+            Material(
+              elevation: 10.0,
+              borderRadius: BorderRadius.circular(30.0),
+              color: Colors.teal,
+              child: MaterialButton(
+                onPressed: (null),
+                child: Text(
+                  "Button 3",
+                  style: TextStyle(
+                    color: Colors.white,
+                  ),
+                  textAlign: TextAlign.center,
+                ),
+              ),
             ),
           ],
         ),
